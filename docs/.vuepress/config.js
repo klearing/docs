@@ -1,10 +1,24 @@
+const moment = require('moment');
+moment.locale("zh-cn")
+
 module.exports = {
+  base:"/docs/" ,
   title:"全栈攻城狮",
   description:"全栈、前端、后端、工程师",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'author', content: '全栈攻城狮' }],
     ['meta', { name: 'Keywords', content: '个人博客，全栈攻城狮，前端，后端，javascript，java' }]
+  ],
+  plugins: [
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp) => {
+          return moment(timestamp).format("LLLL")
+        }
+      }
+    ]
   ],
   themeConfig: {
     logo: "/assets/img/hero.png",
