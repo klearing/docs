@@ -15,4 +15,7 @@
 ## 一级标题1
 
 追加自动化部署
+
+<img :src="$withBase('/favicon.ico')" alt="favicon" class="custom">
  
+ ![favicon](/favicon.ico)

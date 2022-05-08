@@ -1,8 +1,9 @@
 
 const headConf = require("./config/headConf")
 const pluginsConf = require("./config/pluginsConf")
-const navConf = require("./config/navConf")
-const sidebarConf=require("./config/sidebarConf")
+// const navConf = require("./config/navConf")
+const nav = require("./nav")
+// const sidebarConf=require("./config/sidebarConf")
 
 
 
@@ -15,7 +16,7 @@ module.exports = {
   themeConfig: {
     logo: "/assets/img/hero.png",
     lastUpdated: "更新时间",
-    nav: navConf,
+    nav: nav,
     //数组形式侧边栏
     /**sidebar: [
       "",
@@ -29,6 +30,5 @@ module.exports = {
       },
     ], */
     //对象形式
-    sidebar: sidebarConf
   },
 };

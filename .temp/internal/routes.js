@@ -9,6 +9,14 @@ import GlobalLayout from "D:\\pargrammer\\blog\\docs\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-86b6649a",
+    path: "/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-86b6649a").then(next)
+    },
+  },
+  {
     name: "v-004c6c70",
     path: "/",
     component: GlobalLayout,
@@ -19,14 +27,6 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
-  },
-  {
-    name: "v-f305f212",
-    path: "/about1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f305f212").then(next)
-    },
   },
   {
     name: "v-7acfa34d",
@@ -41,22 +41,6 @@ export const routes = [
     redirect: "/css/"
   },
   {
-    name: "v-86b6649a",
-    path: "/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-86b6649a").then(next)
-    },
-  },
-  {
-    name: "v-5116baa6",
-    path: "/css/c-aaa.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5116baa6").then(next)
-    },
-  },
-  {
     name: "v-9d0fadf4",
     path: "/css/c-bbb.html",
     component: GlobalLayout,
@@ -65,11 +49,27 @@ export const routes = [
     },
   },
   {
+    name: "v-f305f212",
+    path: "/about1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f305f212").then(next)
+    },
+  },
+  {
     name: "v-11d99766",
     path: "/css/c-ccc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-11d99766").then(next)
+    },
+  },
+  {
+    name: "v-5116baa6",
+    path: "/css/c-aaa.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5116baa6").then(next)
     },
   },
   {

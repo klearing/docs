@@ -1,6 +1,6 @@
 const moment = require("moment");
 moment.locale("zh-cn");
-const secret = require("./secret")
+const secret = require("./secret");
 
 module.exports = {
   "@vuepress/last-updated": {
@@ -19,5 +19,11 @@ module.exports = {
   "@vuepress/back-to-top": true,
   "@vuepress/google-analytics": {
     ga: secret.ga,
+  },
+  "@vuepress/medium-zoom": {
+    selector: "img.custom",
+  },
+  "vuepress-plugin-auto-sidebar": {
+    nav: true,
   },
 };

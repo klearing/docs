@@ -1,0 +1,1 @@
+export default ({ siteData, options }) => { siteData.themeConfig.sidebar = {"/css/":[{"title":"Css","collapsable":false,"sidebarDepth":1,"children":["","c-ccc","c-aaa","c-bbb"]}]} }
