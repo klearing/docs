@@ -1,28 +1,39 @@
-const moment = require('moment');
-moment.locale("zh-cn")
+const moment = require("moment");
+moment.locale("zh-cn");
 
 module.exports = {
-  base:"/docs/" ,
-  title:"全栈攻城狮",
-  description:"全栈、前端、后端、工程师",
+  base: "/docs/",
+  title: "全栈攻城狮",
+  description: "全栈、前端、后端、工程师",
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['meta', { name: 'author', content: '全栈攻城狮' }],
-    ['meta', { name: 'Keywords', content: '个人博客，全栈攻城狮，前端，后端，javascript，java' }]
-  ],
-  plugins: [
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["meta", { name: "author", content: "全栈攻城狮" }],
     [
-      '@vuepress/last-updated',
+      "meta",
       {
-        transformer: (timestamp) => {
-          return moment(timestamp).format("LLLL")
-        }
-      }
-    ]
+        name: "Keywords",
+        content: "个人博客，全栈攻城狮，前端，后端，javascript，java",
+      },
+    ],
   ],
+  plugins: {
+    "@vuepress/last-updated": {
+      transformer: (timestamp) => moment(timestamp).format("LLLL"),
+    },
+    "@vssue/vuepress-plugin-vssue": {
+      // 设置 `platform` 而不是 `api`
+      platform: "github-v4",
+      // 其他的 Vssue 配置
+      owner: "klearing",
+      repo: "docs",
+      clientId: "f294a234914859676a47",
+      clientSecret: "e0dd285b5d7ebc6c006709fee1a1492ab8fa5349",
+      autoCreateIssue: true,
+    },
+  },
   themeConfig: {
     logo: "/assets/img/hero.png",
-    lastUpdated: '更新时间',
+    lastUpdated: "更新时间",
     nav: [
       { text: "Home", link: "/" },
       { text: "Guide", link: "/about" },
@@ -60,10 +71,8 @@ module.exports = {
       },
     ], */
     //对象形式
-    sidebar:{
-        "/css/":[
-            "c-aaa","c-bbb","c-ccc"
-        ]
-    }
+    sidebar: {
+      "/css/": ["c-aaa", "c-bbb", "c-ccc"],
+    },
   },
-}; 
+};
