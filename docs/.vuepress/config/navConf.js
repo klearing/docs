@@ -5,7 +5,7 @@ module.exports = [
     text: "Languages",
     items: [
       {
-        text: "Group1",
+        text: "Group1", 
         items: [
           { text: "Home", link: "/" },
           { text: "Guide", link: "/about" },

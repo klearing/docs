@@ -7,7 +7,8 @@
     "dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
-    "docs:nav": "vuepress nav docs"
+    "docs:nav": "vuepress nav docs",
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "moment": "^2.29.3",
     "vuepress": "^1.9.7",
-    "vuepress-plugin-auto-sidebar": "^2.3.2"
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-theme-reco": "^1.6.11"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.9.7",
