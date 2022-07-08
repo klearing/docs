@@ -9,36 +9,16 @@ import GlobalLayout from "D:\\pargrammer\\blog\\docs\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-54523be1",
-    path: "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html",
+    name: "v-004c6c70",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-54523be1").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-004c6c70").then(next)
     },
   },
   {
-    path: "/关于我/sports.html",
-    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html"
-  },
-  {
-    path: "/关于我/sports.html",
-    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html"
-  },
-  {
-    name: "v-76f1a577",
-    path: "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-76f1a577").then(next)
-    },
-  },
-  {
-    path: "/关于我/play.html",
-    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html"
-  },
-  {
-    path: "/关于我/play.html",
-    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html"
+    path: "/index.html",
+    redirect: "/"
   },
   {
     name: "v-0fc6feb2",
@@ -57,16 +37,52 @@ export const routes = [
     redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/country.html"
   },
   {
-    name: "v-004c6c70",
-    path: "/",
+    name: "v-76f1a577",
+    path: "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-004c6c70").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-76f1a577").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/关于我/play.html",
+    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html"
+  },
+  {
+    path: "/关于我/play.html",
+    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html"
+  },
+  {
+    name: "v-1101c3d2",
+    path: "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1101c3d2").then(next)
+    },
+  },
+  {
+    path: "/关于我/family.html",
+    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html"
+  },
+  {
+    path: "/关于我/family.html",
+    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html"
+  },
+  {
+    name: "v-54523be1",
+    path: "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-54523be1").then(next)
+    },
+  },
+  {
+    path: "/关于我/sports.html",
+    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html"
+  },
+  {
+    path: "/关于我/sports.html",
+    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html"
   },
   {
     name: "v-11cef15e",
@@ -83,6 +99,22 @@ export const routes = [
   {
     path: "/面经/css.html",
     redirect: "/%E9%9D%A2%E7%BB%8F/css.html"
+  },
+  {
+    name: "v-7fd1ea16",
+    path: "/%E7%AC%94%E8%AE%B0/css.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7fd1ea16").then(next)
+    },
+  },
+  {
+    path: "/笔记/css.html",
+    redirect: "/%E7%AC%94%E8%AE%B0/css.html"
+  },
+  {
+    path: "/笔记/css.html",
+    redirect: "/%E7%AC%94%E8%AE%B0/css.html"
   },
   {
     name: "v-3821ceb6",
@@ -117,22 +149,6 @@ export const routes = [
     redirect: "/%E9%9D%A2%E7%BB%8F/html.html"
   },
   {
-    name: "v-7fd1ea16",
-    path: "/%E7%AC%94%E8%AE%B0/css.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7fd1ea16").then(next)
-    },
-  },
-  {
-    path: "/笔记/css.html",
-    redirect: "/%E7%AC%94%E8%AE%B0/css.html"
-  },
-  {
-    path: "/笔记/css.html",
-    redirect: "/%E7%AC%94%E8%AE%B0/css.html"
-  },
-  {
     name: "v-4a71ca46",
     path: "/%E9%A1%B9%E7%9B%AE/java.html",
     component: GlobalLayout,
@@ -163,22 +179,6 @@ export const routes = [
   {
     path: "/项目/react.html",
     redirect: "/%E9%A1%B9%E7%9B%AE/react.html"
-  },
-  {
-    name: "v-1101c3d2",
-    path: "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1101c3d2").then(next)
-    },
-  },
-  {
-    path: "/关于我/family.html",
-    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html"
-  },
-  {
-    path: "/关于我/family.html",
-    redirect: "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html"
   },
   {
     name: "v-6a44311d",

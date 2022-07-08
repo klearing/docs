@@ -6,7 +6,7 @@ const nav = require("./nav");
 
 module.exports = {
   base: "/docs/",
-  title: "全栈攻城狮",
+  title: "羊加壶口",
   description: "全栈、前端、后端、工程师",
   head: headConf,
   // theme: "reco",
