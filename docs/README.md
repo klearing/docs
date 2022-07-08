@@ -2,7 +2,7 @@
 home: true   
 # 仅在home为true的时候后面项才生效，此时home页没有侧边栏
 heroImage: /dinner.jpg
-heroText: 山川湖海
+heroText: 诸葛四郎
 tagline: 不积跬步，无以至千里
 actionText: 关于我 →
 actionLink: /关于我/country.md

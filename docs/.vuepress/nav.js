@@ -6,8 +6,8 @@ module.exports = [
       {
         text: "生活",
         items: [
-          { text: "运动", link: "/关于我/family" },
-          { text: "玩耍", link: "/关于我/country" },
+          { text: "运动", link: "/关于我/sports" },
+          { text: "玩耍", link: "/关于我/play" },
         ],
       },{
         text: "工作",
@@ -71,5 +71,5 @@ module.exports = [
       },
     ],
   },
-  { text: "GitHub", link: "https://github.com/" },
+  { text: "GitHub", link: "https://github.com/klearing" },
 ];
