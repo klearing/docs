@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/docs/docs/docs/favicon.ico"
+        "href": "/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/docs/favicon.ico"
       }
     ],
     [
@@ -30,33 +30,87 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "react",
+      "frontmatter": {
+        "title": "react"
+      },
+      "regularPath": "/%E7%AC%94%E8%AE%B0/react.html",
+      "relativePath": "笔记/react.md",
+      "key": "v-683b7183",
+      "path": "/%E7%AC%94%E8%AE%B0/react.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "目录",
+          "slug": "目录"
+        },
+        {
+          "level": 2,
+          "title": "动态类和动态属性",
+          "slug": "动态类和动态属性"
+        }
+      ]
+    },
+    {
+      "title": "vue",
+      "frontmatter": {
+        "title": "vue"
+      },
+      "regularPath": "/%E7%AC%94%E8%AE%B0/vue.html",
+      "relativePath": "笔记/vue.md",
+      "key": "v-49fd8c75",
+      "path": "/%E7%AC%94%E8%AE%B0/vue.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "目录",
+          "slug": "目录"
+        },
+        {
+          "level": 2,
+          "title": "1. 动态类和动态属性",
+          "slug": "_1-动态类和动态属性"
+        },
+        {
+          "level": 3,
+          "title": "动态类",
+          "slug": "动态类"
+        },
+        {
+          "level": 3,
+          "title": "动态属性",
+          "slug": "动态属性"
+        }
+      ]
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
         "heroImage": "/dinner.jpg",
-        "heroText": "诸葛四郎",
+        "heroText": "羊加壶口",
         "tagline": "不积跬步，无以至千里",
         "actionText": "关于我 →",
         "actionLink": "/关于我/country.md",
         "features": [
           {
-            "title": "笔记",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+            "title": "王小波",
+            "details": "一个人只拥有此生此世是不够的,他还应该拥有诗意的世界。"
           },
           {
-            "title": "项目",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+            "title": "尼采",
+            "details": "一个人知道自己为什么而活,就可以忍受任何一种生活"
           },
           {
-            "title": "面经",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+            "title": "高级动物",
+            "details": "矛盾 虚伪 贪婪 欺骗 幻想 疑惑 简单 善变 好强 无奈 孤独 脆弱 忍让 气愤 复杂 讨厌 嫉妒 阴险 争夺 埋怨 自私 无聊 变态 冒险"
           }
         ],
         "footer": "MIT Licensed | Copyright © 2022-present 不明所以中心"
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-004c6c70",
+      "key": "v-674e7503",
       "path": "/",
       "lastUpdated": "2022年7月8日星期五上午9点35分",
       "lastUpdatedTimestamp": 1657244146000,
@@ -69,8 +123,21 @@ export const siteData = {
       },
       "regularPath": "/%E5%85%B3%E4%BA%8E%E6%88%91/country.html",
       "relativePath": "关于我/country.md",
-      "key": "v-0fc6feb2",
+      "key": "v-91614d68",
       "path": "/%E5%85%B3%E4%BA%8E%E6%88%91/country.html",
+      "lastUpdated": "2022年5月9日星期一下午3点18分",
+      "lastUpdatedTimestamp": 1652080712000,
+      "createdTime": 1652080712000
+    },
+    {
+      "title": "摸鱼",
+      "frontmatter": {
+        "title": "摸鱼"
+      },
+      "regularPath": "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html",
+      "relativePath": "关于我/family.md",
+      "key": "v-732c4808",
+      "path": "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html",
       "lastUpdated": "2022年5月9日星期一下午3点18分",
       "lastUpdatedTimestamp": 1652080712000,
       "createdTime": 1652080712000
@@ -82,24 +149,11 @@ export const siteData = {
       },
       "regularPath": "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html",
       "relativePath": "关于我/play.md",
-      "key": "v-76f1a577",
+      "key": "v-68c91ddc",
       "path": "/%E5%85%B3%E4%BA%8E%E6%88%91/play.html",
       "lastUpdated": "2022年7月8日星期五上午9点35分",
       "lastUpdatedTimestamp": 1657244146000,
       "createdTime": 1657244146000
-    },
-    {
-      "title": "摸鱼",
-      "frontmatter": {
-        "title": "摸鱼"
-      },
-      "regularPath": "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html",
-      "relativePath": "关于我/family.md",
-      "key": "v-1101c3d2",
-      "path": "/%E5%85%B3%E4%BA%8E%E6%88%91/family.html",
-      "lastUpdated": "2022年5月9日星期一下午3点18分",
-      "lastUpdatedTimestamp": 1652080712000,
-      "createdTime": 1652080712000
     },
     {
       "title": "运动",
@@ -108,7 +162,7 @@ export const siteData = {
       },
       "regularPath": "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html",
       "relativePath": "关于我/sports.md",
-      "key": "v-54523be1",
+      "key": "v-233cf9c6",
       "path": "/%E5%85%B3%E4%BA%8E%E6%88%91/sports.html",
       "lastUpdated": "2022年7月8日星期五上午9点35分",
       "lastUpdatedTimestamp": 1657244146000,
@@ -117,11 +171,127 @@ export const siteData = {
     {
       "title": "css",
       "frontmatter": {
+        "title": "css",
+        "autoPrev": "html"
+      },
+      "regularPath": "/%E7%AC%94%E8%AE%B0/css.html",
+      "relativePath": "笔记/css.md",
+      "key": "v-2ff711fb",
+      "path": "/%E7%AC%94%E8%AE%B0/css.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "目录",
+          "slug": "目录"
+        },
+        {
+          "level": 2,
+          "title": "1.各种height等值的含义",
+          "slug": "_1-各种height等值的含义"
+        },
+        {
+          "level": 3,
+          "title": "1.offsetWidth",
+          "slug": "_1-offsetwidth"
+        },
+        {
+          "level": 3,
+          "title": "2.offsetLeft",
+          "slug": "_2-offsetleft"
+        },
+        {
+          "level": 3,
+          "title": "3.scrollWidth",
+          "slug": "_3-scrollwidth"
+        },
+        {
+          "level": 3,
+          "title": "4.scrollTop",
+          "slug": "_4-scrolltop"
+        },
+        {
+          "level": 3,
+          "title": "5.clientWidth",
+          "slug": "_5-clientwidth"
+        },
+        {
+          "level": 3,
+          "title": "6.clientLeft",
+          "slug": "_6-clientleft"
+        },
+        {
+          "level": 3,
+          "title": "7.mousemove事件相关",
+          "slug": "_7-mousemove事件相关"
+        },
+        {
+          "level": 2,
+          "title": "2.结构伪类选择器",
+          "slug": "_2-结构伪类选择器"
+        }
+      ],
+      "lastUpdated": "2022年7月8日星期五上午10点44分",
+      "lastUpdatedTimestamp": 1657248269000,
+      "createdTime": 1652080712000
+    },
+    {
+      "title": "html",
+      "frontmatter": {
+        "title": "html"
+      },
+      "regularPath": "/%E7%AC%94%E8%AE%B0/html.html",
+      "relativePath": "笔记/html.md",
+      "key": "v-739c915b",
+      "path": "/%E7%AC%94%E8%AE%B0/html.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "目录",
+          "slug": "目录"
+        },
+        {
+          "level": 2,
+          "title": "1.html、body、document和window",
+          "slug": "_1-html、body、document和window"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "_1-html"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "_2-body"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "_3-document"
+        },
+        {
+          "level": 3,
+          "title": "",
+          "slug": "_4-window"
+        },
+        {
+          "level": 2,
+          "title": "2.",
+          "slug": "_2"
+        }
+      ],
+      "lastUpdated": "2022年5月9日星期一下午3点18分",
+      "lastUpdatedTimestamp": 1652080712000,
+      "createdTime": 1652080712000
+    },
+    {
+      "title": "css",
+      "frontmatter": {
         "title": "css"
       },
       "regularPath": "/%E9%9D%A2%E7%BB%8F/css.html",
       "relativePath": "面经/css.md",
-      "key": "v-11cef15e",
+      "key": "v-b184a194",
       "path": "/%E9%9D%A2%E7%BB%8F/css.html",
       "headers": [
         {
@@ -135,40 +305,20 @@ export const siteData = {
       "createdTime": 1652080712000
     },
     {
-      "title": "css",
+      "title": "java",
       "frontmatter": {
-        "title": "css",
-        "autoPrev": "html"
+        "title": "java",
+        "autoPrev": "react"
       },
-      "regularPath": "/%E7%AC%94%E8%AE%B0/css.html",
-      "relativePath": "笔记/css.md",
-      "key": "v-7fd1ea16",
-      "path": "/%E7%AC%94%E8%AE%B0/css.html",
+      "regularPath": "/%E9%A1%B9%E7%9B%AE/java.html",
+      "relativePath": "项目/java.md",
+      "key": "v-1641dd82",
+      "path": "/%E9%A1%B9%E7%9B%AE/java.html",
       "headers": [
         {
           "level": 2,
-          "title": "css-1",
-          "slug": "css-1"
-        }
-      ],
-      "lastUpdated": "2022年5月9日星期一下午3点18分",
-      "lastUpdatedTimestamp": 1652080712000,
-      "createdTime": 1652080712000
-    },
-    {
-      "title": "html",
-      "frontmatter": {
-        "title": "html"
-      },
-      "regularPath": "/%E7%AC%94%E8%AE%B0/html.html",
-      "relativePath": "笔记/html.md",
-      "key": "v-3821ceb6",
-      "path": "/%E7%AC%94%E8%AE%B0/html.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "html-1",
-          "slug": "html-1"
+          "title": "java-1",
+          "slug": "java-1"
         }
       ],
       "lastUpdated": "2022年5月9日星期一下午3点18分",
@@ -182,7 +332,7 @@ export const siteData = {
       },
       "regularPath": "/%E9%9D%A2%E7%BB%8F/html.html",
       "relativePath": "面经/html.md",
-      "key": "v-0e3002d9",
+      "key": "v-49aac57e",
       "path": "/%E9%9D%A2%E7%BB%8F/html.html",
       "headers": [
         {
@@ -236,55 +386,13 @@ export const siteData = {
       "createdTime": 1652080712000
     },
     {
-      "title": "java",
-      "frontmatter": {
-        "title": "java",
-        "autoPrev": "react"
-      },
-      "regularPath": "/%E9%A1%B9%E7%9B%AE/java.html",
-      "relativePath": "项目/java.md",
-      "key": "v-4a71ca46",
-      "path": "/%E9%A1%B9%E7%9B%AE/java.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "java-1",
-          "slug": "java-1"
-        }
-      ],
-      "lastUpdated": "2022年5月9日星期一下午3点18分",
-      "lastUpdatedTimestamp": 1652080712000,
-      "createdTime": 1652080712000
-    },
-    {
-      "title": "react",
-      "frontmatter": {
-        "title": "react",
-        "autoPrev": "vue2"
-      },
-      "regularPath": "/%E9%A1%B9%E7%9B%AE/react.html",
-      "relativePath": "项目/react.md",
-      "key": "v-24f06236",
-      "path": "/%E9%A1%B9%E7%9B%AE/react.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "react-1",
-          "slug": "react-1"
-        }
-      ],
-      "lastUpdated": "2022年5月9日星期一下午3点18分",
-      "lastUpdatedTimestamp": 1652080712000,
-      "createdTime": 1652080712000
-    },
-    {
       "title": "vue2",
       "frontmatter": {
         "title": "vue2"
       },
       "regularPath": "/%E9%A1%B9%E7%9B%AE/vue2.html",
       "relativePath": "项目/vue2.md",
-      "key": "v-6a44311d",
+      "key": "v-b482187c",
       "path": "/%E9%A1%B9%E7%9B%AE/vue2.html",
       "headers": [
         {
@@ -303,13 +411,34 @@ export const siteData = {
       "createdTime": 1652080712000
     },
     {
+      "title": "react",
+      "frontmatter": {
+        "title": "react",
+        "autoPrev": "vue2"
+      },
+      "regularPath": "/%E9%A1%B9%E7%9B%AE/react.html",
+      "relativePath": "项目/react.md",
+      "key": "v-355c7c4a",
+      "path": "/%E9%A1%B9%E7%9B%AE/react.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "react-1",
+          "slug": "react-1"
+        }
+      ],
+      "lastUpdated": "2022年5月9日星期一下午3点18分",
+      "lastUpdatedTimestamp": 1652080712000,
+      "createdTime": 1652080712000
+    },
+    {
       "title": "vue3",
       "frontmatter": {
         "title": "vue3"
       },
       "regularPath": "/%E9%A1%B9%E7%9B%AE/vue3.html",
       "relativePath": "项目/vue3.md",
-      "key": "v-2c5e7486",
+      "key": "v-254b8862",
       "path": "/%E9%A1%B9%E7%9B%AE/vue3.html",
       "headers": [
         {
